@@ -1,0 +1,14 @@
+/**
+ * Update Last Modified Date
+ */
+task updateLastModfied << {
+    def now = new Date().format("yyyy-MM-dd HH:mm:ss")
+    println "now: $now"
+
+    def packagesJson = file("./packages.json")
+    packagesJson.write(
+        packagesJson.text
+                .replaceAll(/"last_modified": "(.*)"/) { all, m1 ->
+                    all.replaceAll(m1, now)
+                })
+}

@@ -1,0 +1,20 @@
+{
+    "schema_version": "1.2",
+    "packages": [
+        {
+            "name": "sublime-spock",
+            "description": "Support for use Spock on Sublime Text 2",
+            "author": "kiyoshiro",
+            "homepage": "https://github.com/koizuss/sublime-spock",
+            "last_modified": "2013-01-14 14:14:45",
+            "platforms": {
+                "*": [
+                    {
+                        "version": "1.0.0",
+                        "url": "https://github.com/koizuss/sublime-gradle/zipball/master"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+import spock.lang.*
+
+class ${TM_FILENAME/\.groovy//} extends Specification {
+
+    def "Some Spec"() {
+        given:
+        expect: false
+    }
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>spock.class..</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.groovy</scope>
+    <description>Spock class Template</description>
+</snippet>
