@@ -1,4 +1,4 @@
-# Sublime Gradle
+# Sublime Spock
 
 Support for use [Spock](http://code.google.com/p/spock/) on [Sublime Text 2](http://www.sublimetext.com/).
 
